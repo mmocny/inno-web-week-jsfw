@@ -11,6 +11,7 @@ export default function({ children }: { children: React.ReactNode }) {
       <body>
         <nav>
           <ul>
+            <li><Link href="./client">Client</Link></li>
             <li><Link href="./other/1">Page 1</Link></li>
             <li><Link href="./other/2">Page 2</Link></li>
             <li><Link href="./other/3">Page 3</Link></li>
