@@ -5,8 +5,9 @@ export default async function Page({ params, searchParams }: {
 	params: { id: string },
 	searchParams: {},
 }) {
-	await delay(Number(params.id) * 500);
 
+	await delay(Number(params.id) * 500);
+	
 	let data = await getData();
 
 	return (<>
